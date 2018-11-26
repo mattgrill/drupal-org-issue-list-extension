@@ -16,7 +16,7 @@
     {
       "run_at": "document_start",
       "matches": [
-        "https://www.drupal.org/*"
+        "https://www.drupal.org/project/issues/*"
       ],
       "js": [
         "dist/content.js"
