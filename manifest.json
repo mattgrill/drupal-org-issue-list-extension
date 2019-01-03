@@ -1,9 +1,9 @@
 {
-  "name": "drupal.org issue list additions",
+  "name": "Drupal.org Issue Metadata",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Additional information for Drupal.org issue",
-  "homepage_url": "https://matthewgrill.com.com",
+  "description": "Additional information for Drupal.org issue metadata block",
+  "homepage_url": "https://matthewgrill.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -16,7 +16,7 @@
     {
       "run_at": "document_start",
       "matches": [
-        "https://www.drupal.org/project/issues/*"
+        "https://www.drupal.org/project/drupal/issues/*"
       ],
       "js": [
         "dist/content.js"
